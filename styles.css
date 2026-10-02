@@ -116,14 +116,16 @@ img {
 
 .btn-primary {
   background-color: transparent;
-  color: #000000;
+  /* color: #000000; */
+  color: #ffffff;
   border: 2px solid #ffffff;
   position: relative;
   overflow: hidden;
 }
 
 .btn-primary:hover {
-  color: #dbdee6;
+  /* color: #dbdee6; */
+  color: #000000;
 }
 
 .btn-primary::before {
@@ -131,7 +133,7 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(0);
   width: 150%;
   height: 150%;
   background-color: rgba(255, 255, 255, 1);
@@ -141,7 +143,7 @@ img {
 }
 
 .btn-primary:hover::before {
-  transform: translate(-50%, -50%) scale(0);
+  transform: translate(-50%, -50%) scale(1);
 }
 
 .btn-outline {
@@ -174,12 +176,12 @@ img {
 
 .section-title {
   text-align: center;
-  font-size: clamp(28px, 5vw, 60px);
+  font-size: clamp(28px, 2vw, 60px);
   font-weight: 700;
   letter-spacing: 2px;
   margin-bottom: 40px;
   color: #1a1a1a;
-  font-family: "Explorer";
+  /* font-family: "Explorer"; */
 }
 
 /*  Header Styles  */
@@ -344,7 +346,7 @@ img {
 }
 
 .hero-title {
-  font-size: clamp(32px, 8vw, 72px);
+  font-size: clamp(25px, 2vw, 50px);
   font-weight: 800;
   letter-spacing: 8px;
   margin-bottom: 24px;
@@ -396,7 +398,7 @@ img {
 }
 
 .about-content h2 {
-  font-size: clamp(28px, 5vw, 60px);
+  font-size: clamp(25px, 2vw, 50px);
   font-weight: 700;
   margin-bottom: 24px;
   color: #1a1a1a;

@@ -74,6 +74,7 @@ This project came from **Debug Battle**, a challenge by Not Your College (Sheryi
 - **References:** MDN Web Docs and W3Schools
 
 <br>
+
 ## 📂 Project Structure
 
 ```text

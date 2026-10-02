@@ -346,7 +346,7 @@ img {
 }
 
 .hero-title {
-  font-size: clamp(25px, 2vw, 50px);
+  font-size: clamp(25px, 2vw, 30px);
   font-weight: 800;
   letter-spacing: 8px;
   margin-bottom: 24px;
